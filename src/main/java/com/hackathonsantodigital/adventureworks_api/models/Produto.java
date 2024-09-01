@@ -35,11 +35,9 @@ public class Produto {
 
     private Double peso;
 
-    // Construtor padrão (necessário para JPA)
     public Produto() {
     }
 
-    // Construtor com todos os parâmetros
     public Produto(String nome, String numeroProduto, String cor, Double precoPadrao, Double precoPromo, String tamanho, Double peso) {
         this.nome = nome;
         this.numeroProduto = numeroProduto;
@@ -49,7 +47,4 @@ public class Produto {
         this.tamanho = tamanho;
         this.peso = peso;
     }
-
-    // Getters e Setters
-    // ...
 }
